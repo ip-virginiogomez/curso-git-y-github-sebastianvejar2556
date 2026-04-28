@@ -30,11 +30,11 @@ GitHub Classroom es una herramienta que permite a los profesores crear tareas y 
 ### Paso 2: Configurar nombre y correo de manera local
 1. Configura tu nombre:  
     ```bash
-    git config user.name "Tu Nombre"
+    git config --local user.name "Tu Nombre"
     ```
 2. Configura tu correo:  
     ```bash
-    git config user.email "tu_correo@example.com"
+    git config --local user.email "tu_correo@example.com"
     ```
 
 ### Paso 3: Comprobar el estado del repositorio
